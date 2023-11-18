@@ -16,7 +16,7 @@ void countSort(int A[],int n){
     int i = 0;
     for(int k=0;k<=max_value;k++){
         while(count[k] >0){
-            A[i] = k;
+            A[i] = k`;
             i++;
             count[k]--;
         }
